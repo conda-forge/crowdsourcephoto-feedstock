@@ -1,5 +1,5 @@
 {% set name = "crowdsourcephoto" %}
-{% set version = "0.5.5" %}
+{% set version = "0.5.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/crowdsourcephoto-{{ version }}.tar.gz
-  sha256: f8613e70a54a229644433ff99d08cfa6a2bf28dbc2eaad6e89aa921f0bbf2ffc
+  sha256: 89b0fb098aa2793422aeef1dbf2112ff21adeea3c0ba39d40b6cfbe8e3e7d8f1
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - numpy
     - python >=3.6
     - scikit-image
-    - scipy
+    - scipy >=1.5
     - tensorflow >=2.5
 
 test:
