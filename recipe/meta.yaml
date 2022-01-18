@@ -27,7 +27,7 @@ requirements:
     - numpy
     - python >=3.6
     - scikit-image
-    - scipy >= 1.5
+    - scipy >=1.5
     - tensorflow >=2.5
 
 test:
