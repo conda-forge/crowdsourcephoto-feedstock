@@ -1,5 +1,5 @@
 {% set name = "crowdsourcephoto" %}
-{% set version = "0.5.6" %}
+{% set version = "0.5.9" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/crowdsourcephoto-{{ version }}.tar.gz
-  sha256: 89b0fb098aa2793422aeef1dbf2112ff21adeea3c0ba39d40b6cfbe8e3e7d8f1
+  sha256: a0ff8c9ad352f6f9f62bc2c028bdadc4afef4b71127e195013ba906b333a9968
 
 build:
   number: 0
