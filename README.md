@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@andrew-saydjari](https://github.com/andrew-saydjari/)
+* [@schlafly](https://github.com/schlafly/)
 
